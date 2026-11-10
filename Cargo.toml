@@ -1,0 +1,10 @@
+[package]
+name = "contour_net"
+version = "1.0.0"
+edition = "2021"
+description = "A CLI neural network for detecting contours in images"
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+rand = "0.8"
+serde_json = "1"
