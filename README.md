@@ -1,4 +1,4 @@
-# contour_net
+# contour_net_rust
 
 A command-line application written in Rust that trains and uses a small neural network to detect contour lines in images.
 
